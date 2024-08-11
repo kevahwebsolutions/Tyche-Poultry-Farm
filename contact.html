@@ -75,7 +75,7 @@
 								<a href="product-page.html">Shop</a>
 								
 							</li><li>
-								<a href="booking-page.html">Booking</a>
+								<a href="booking form.html">Booking</a>
 								
 							</li>
 							<li class="active"><a href="contact.html">Contact</a></li>
@@ -147,7 +147,7 @@
 											<a href="product-page.html">Shop</a>
 											
 										</li><li>
-											<a href="booking-page.html">Booking</a>
+											<a href="booking form.html">Booking</a>
 											
 										</li>
 										<li>
@@ -220,25 +220,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="contac-bottom">
-					<div class="row justify-content-center">
-						<div class="col-lg-6 col-12">
-							<div class="location-map">
-								<div id="map">
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213119.5648365775!2d35.914043517814896!3d-0.31546718055916234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18298d90cf610bef%3A0xf2f21833bc7cc21a!2sNakuru!5e1!3m2!1sen!2ske!4v1722974633574!5m2!1sen!2ske"
-										allowfullscreen=""></iframe>
-
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-12">
+						<div class="col-lg-6 col-12 mx-auto">
 							<div class="contact-form">
-								<form action="#" method="POST" id="commentform" class="comment-form">
-									<input type="text" name="name" class="" placeholder="Name*">
-									<input type="email" name="email" class="" placeholder="Email*">
-									<input type="text" name="subject" class="" placeholder="Subject*">
-									<textarea name="text" id="role" cols="30" rows="9" placeholder="Message*"></textarea>
+								<form action="https://api.web3forms.com/submit" method="POST" id="commentform" class="comment-form">
+									<input type="hidden" name="access_key" value="1bffce97-55be-41b4-b6b1-542ce5236203">
+									<input type="text" name="name" class="form-control" placeholder="Name*">
+									<input type="email" name="email" class="form-control" placeholder="Email*">
+									<input type="text" name="subject" class="form-control" placeholder="Subject*">
+									<textarea name="text" id="role" cols="30" rows="9" class="form-control" placeholder="Message*"></textarea>
 									<button type="submit" class="lab-btn">
 										<span>Submit Now</span>
 									</button>
